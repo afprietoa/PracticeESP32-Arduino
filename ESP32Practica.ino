@@ -9,11 +9,11 @@ DHT dht(DHTPIN, DHTTYPE);
 
 
 /*Definimos nuestras credenciales de la red WiFi*/
-const char* ssid = "LINEA_DE_TRABAJO";
-const char* pass = "Trabajo.2023.*";
+const char* ssid = "";
+const char* pass = "";
 
-#define AUTH "https://esp32practica-fa041-default-rtdb.firebaseio.com/"                  // URL de la base de datos.
-#define HOST "6ko52vcLd5zAjWnsgQJvlFJSLb5lrEtSUsEzS7h2"
+#define AUTH ""                  // URL de la base de datos.
+#define HOST ""
 
 
 /* Configuracion de terminales para led RGB*/
